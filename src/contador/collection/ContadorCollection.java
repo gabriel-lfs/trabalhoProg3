@@ -1,8 +1,10 @@
-package collection;
+package contador.collection;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ContadorCollection {
+import contador.IContador;
+
+public class ContadorCollection implements IContador{
     public String contar(String entrada) {
         String output = "[";
         ArrayList<String> palavras = new ArrayList<>();
